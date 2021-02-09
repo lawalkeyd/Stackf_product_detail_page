@@ -1,0 +1,21 @@
+.container{
+    margin-top: 80px;
+}
+
+.header
+{
+    background-color: #f1f1f1;
+}
+
+.header img {
+    float: right;
+    width: 100px;
+    height: 100px;
+  }
+
+.cart
+{
+    width: 160px;
+    height: 50px;
+    font-size: 21px;
+}  
