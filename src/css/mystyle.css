@@ -76,13 +76,12 @@ body
 
 .icons-row
 {
-    margin-top: 5px;
-    padding-right: 15px;
+    margin-top: 15px;
 }
 
 .img-icon-1, .img-icon-2, .img-icon-3
 {
-    padding-right: 5px;
+    padding-right: 23px;
 }
 
 /*-- Product Details and Pricing--*/
@@ -306,20 +305,30 @@ input[type='number'] {
   }
 
   /*--More Info--*/
-.more-info select {
+.more-info {
     background-color: #fff;
+    display: block;
     color: #06415d;
-    padding: 12px;
+    padding: .6em 1.4em .5em .8em;
     height: 54px;
-    width: 537px;
+    width: 550px;
     border-radius: 4px;
     border: 1px solid #DCDCDC;
     box-sizing: border-box;    
-    font-size: 16px;
-    -webkit-appearance: button;
-    appearance: button;
-    outline: none;
-  }
+    font-size: 18px;
+    /*--
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('/src/img/select_pointer.png');
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    --*/
+}
+
+.more-info::-ms-expand {
+	display: none;
+}
   
   .boxin select option {
     padding: 30px;
@@ -350,19 +359,19 @@ input[type='number'] {
     font-family: Montserrat;
 }
 
+.view_ali a:hover
+{
+    color: #06415d;
+}
+
 .button_img
 {
-    margin-right: 3px;
+    margin-right: 8px;
 }
 
 .ali_link
 {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.view_ali
-{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
