@@ -285,9 +285,13 @@ input[type='number'] {
     box-sizing: border-box;    
     font-size: 16px;
     font-family: Montserrat;
-    -webkit-appearance: button;
-    appearance: button;
     outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('/src/img/select_pointer.png');
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
   }
   
   .boxin select option {
